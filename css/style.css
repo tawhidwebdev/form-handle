@@ -1,0 +1,159 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ol,ul{
+ list-style-type: none;
+}
+a{
+  text-decoration: none;
+}
+.main{
+  display: flex;
+}
+
+.formWrapper{
+  width: 300px;
+  height: 100vh;
+  background-color: blanchedalmond;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: 30%;
+  transform: translateX(-50%);
+}
+.heading{
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: darkblue;
+  font-weight: bolder;
+}
+#inputForm label{
+  text-transform: capitalize;
+  font-weight: 600;
+}
+#inputForm input{
+  padding: 5px;
+  border: 2px solid black;
+  outline: none;
+}
+#inputForm span{
+  color: #ff0000;
+}
+.btnWrapper button{
+  padding: 10px 20px;
+  text-transform: uppercase;
+  color: #fff;
+  border-radius: 8px;
+  outline: none;
+  border: none;
+}
+.btnWrapper #submit{
+  background-color: green;
+}
+.btnWrapper #reset{
+  background-color: #ff0000;
+}
+.result{
+  width: 400px;
+  height: 500px;
+  background: #000;
+  color: #fff;
+  margin-top: 100px;
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  font-size: 30px;
+  border: 2px solid blue;
+}
+.resultWrapper{
+  display: none;
+}
+#idCardWrapper{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: none;
+}
+.idCard{
+  width: 155px;
+  height: 250px;
+  align-items: center;
+  text-align: center;
+}
+.idCardHeader{
+  width: 100%;
+  height: 60px;
+  color: #fff;
+  background-color: #000;
+}
+.idCardHeader h3{
+  padding-top: 13px;
+  text-transform: uppercase;
+}
+.idCardHeader p{
+  text-transform: uppercase;
+  margin-top: 5px;
+  font-weight: 700;
+  font-size: 15px;
+}
+.idCardDetyails{
+  width: 100%;
+  height: 190px;
+  background-color: #c34342;
+  position: relative;
+}
+.imageWrapper{
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+.idCardImg{
+  width: 53px;
+  height: 53px;
+  margin: 0 auto;
+  margin-bottom: 6px;
+  border: 3px solid white;
+  overflow: hidden;
+  /* object-fit: cover; */
+}
+.idCardImg img{
+  object-fit: cover;
+  background-size: cover;
+}
+.idCardName{
+  font-size: 10.50px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.imageWrapper p{
+  font-size: 7px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 2px;
+}
+.idCardInfo{
+  width: 110px;
+  height: 50px;
+  background-color: #b03131;
+  margin-top: 10px;
+  border-radius: 8px;
+  padding: 8px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 9px;
+  text-align: left;
+  text-transform: capitalize;
+  display: flex;
+  flex-direction: column;
+  row-gap: 2px;
+}
+.idCardBottom{
+  font-size: 8px;
+  margin-top: 75px;
+  font-weight: 600;
+}

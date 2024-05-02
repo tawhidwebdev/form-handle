@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Student ID</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div class="main">
+    <div class="formWrapper">
+      <h2 class="heading">create student ID</h2>
+      <form id="inputForm">
+        <label for="name">name:</label><br>
+        <input type="text" name="name" id="name" class="inputBox"><br>
+        <span id="nameError" class="error"></span><br>
+
+        <label for="roll">roll:</label><br>
+        <input type="number" name="roll" id="roll" class="inputBox"><br>
+        <span id="rollError" class="error"></span><br>
+
+        <label for="class">class:</label><br>
+        <input type="text" name="class" id="class" class="inputBox"><br>
+        <span id="classError" class="error"></span><br>
+
+        <label for="mobileNo">mobile no:</label><br>
+        <input type="number" name="mobileNo" id="mobileNo" class="inputBox"><br>
+        <span id="mobileNoError" class="error"></span><br>
+
+        <label for="email">email:</label><br>
+        <input type="email" name="email" id="email" class="inputBox"><br>
+        <span id="emailError" class="error"></span><br>
+      </form>
+      <div class="btnWrapper">
+        <button id="submit" type="submit">submit</button>
+        <button id="reset" type="reset">reset</button>
+      </div> 
+    </div>
+    <!-- <div class="resultWrapper">
+      <div class="result">
+        <h2 class="resultHeading" style="margin: 0 auto; color: blue; padding: 10px;
+        border: 2px solid burlywood;">Student ID</h2>
+        <span id="resultName"></span>
+        <span id="resultRoll"></span>
+        <span id="resultClass"></span>
+        <span id="resultMobileNo"></span>
+        <span id="resultEmail"></span>
+      </div>
+    </div> -->
+    <div id="idCardWrapper">
+      <div class="idCard">
+        <div class="idCardHeader">
+          <h3>creative it</h3>
+          <p>student id card</p>
+        </div>
+        <div class="idCardDetyails">
+          <div class="imageWrapper">
+            <div class="idCardImg"><img src="./images/idimage 11.png" alt="Not Found"></div>
+            <span class="idCardName">Md. Tawhidul Islam</span>
+            <p>mern-2306</p>
+          </div>
+          <div class="idCardInfo">
+              <div class="idCardId"></div>
+              <div class="idCardRoll"></div>
+              <div class="idCardMobile"></div>
+          </div>
+          <div class="idCardBottom">
+            <span>www.creativeitinstitute.com</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script src="./js/script.js"></script>
+</body>
+</html>
